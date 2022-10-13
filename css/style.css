@@ -1,11 +1,82 @@
 
-
+*{
+    font-family: 'Inconsolata', monospace;
+}
 .container {
     margin-top: 10px;
+}
+
+.container-total-salas {
+    margin-top: 80px;
 }
 
 .botones {
     float: left;
     margin: 5px;
 }
+
+.contenedor-salas {
+    margin-top: 10px;
+}
+
+.contenedor-total-de-filtro {
+    margin-top: 100px;
+    border-bottom: 1px solid rgb(176, 176, 176);
+}
+
+.contenedor-de-filtros {
+    margin-top: 10px;
+
+}
+
+
+
+.contenedor-de-buscador {
+    
+
+    margin-bottom: 30px;
+
+    
+}
+.contenedor-de-buscador input {
+    display: inline;
+    width: 150px;
+}
+.icono-lupa {
+    display: inline !important ;
+}
+
+.contenedor-filtros-principal {
+    align-content: space-between;
+}
+
+.input-filter {
+    width: 150px;
+}
+
+.name-filter {
+    text-align: right;
+}
+
+.card-info-salas {
+    margin-top: 15px;
+}
+
+
+
+
+
+
+.contenedor-producto-administrador-eliminar {
+    margin-top: 90px;
+}
+
+
+
+
+
+
+
+
+
 

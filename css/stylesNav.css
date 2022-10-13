@@ -1,0 +1,96 @@
+/* NavBar */
+.name-bank {
+    letter-spacing: 0.3625rem ;
+    
+}
+.navbar .nav-link{
+
+    color: white;
+    margin-right: 29px;
+    transition: 0.2s;
+}
+.navbar {
+    background: rgb(87,55,13);
+    background: linear-gradient(270deg, rgba(87,55,13,1) 3%, rgba(255,233,152,1) 98%);
+    height: 75px;
+}
+
+a.nav-link:hover{
+    padding-bottom: 3px;
+    border-bottom: 2px solid white;
+}
+
+
+.btn-register {
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    background: #006494;
+    color: #fff;
+    padding: 8px 20px;
+    transition: all 0.6s;
+    margin-right: 5px ;
+}
+
+.btn-register:hover {
+   color: #fff;
+   background: #0380ba;
+
+}
+
+.btn-login {
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    background: transparent;
+    padding: 8px 20px;
+    transition: background-color .3s;
+}
+.btn-login:hover {
+    background-color: #006494;
+    color: #fff;
+}
+.btn-login:active {
+    animation: gradient 90ms;
+        background: #006494;
+        color: #006494;
+        box-shadow: none;
+}
+@keyframes gradient {
+0% {
+background: radial-gradient(circle at center, rgba( 255, 125 , 125, 0 ) 0%, #006494 0%, #006494 100%);
+}
+25% {
+background: radial-gradient(circle at center, #006494 24%, #006494 25%, #006494 100%);
+}
+50% {
+background: radial-gradient(circle at center, #0775a8 49%, #006494 50%, #006494 100%);
+}
+75% {
+background: radial-gradient(circle at center, #0d87bf 74%, #006494 75%, #006494 100%);
+}
+100% {
+color: #fff;
+background: radial-gradient(circle at center, #1197d4 99%, #006494 100%, #006494 100%);
+}
+}
+
+.navbar-fixed{
+    background-color: #003554;
+    padding-top: 0;
+    padding-bottom: 0;
+    transition: all 0.6s;
+    box-shadow: 0px 3px 16px 0px rgba( 0, 0, 0, 0.1);
+}
+.user-icon {
+    font-size: 1.5rem;
+}
+
+.nav-link-user {
+    text-decoration: none;
+    color:  #fff;
+}
+.nav-link-user:hover {
+    color: rgb(226, 226, 226);
+}

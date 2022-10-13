@@ -7,7 +7,7 @@ let listarProductos = () => {
     
 
     return    `   
-    <div class="col-lg-4" id="producto-id-${x.id}">
+    <div class="col-lg-4 card-info-salas" id="producto-id-${x.id}">
     <div class="card" style="width: 18rem;">
         <div class="cat">
             <img src="${foto}" class="card-img-top" alt="">

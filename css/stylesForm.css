@@ -1,4 +1,17 @@
 .contenedor-form {
     display: flex;
     flex-direction: column;
+    margin-top: 74px;
+   width: 500px;
+   
+    
+}
+
+.contenedor-total {
+    display: flex;
+    justify-content: center;
+
+}
+.boton-registrar {
+    margin-left: 32px;
 }
